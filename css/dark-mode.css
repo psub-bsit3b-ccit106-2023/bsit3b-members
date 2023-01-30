@@ -1,0 +1,45 @@
+body {
+    transition: 0.2s ease;
+}
+
+body.dark-mode {
+    background: #121212;
+    color: #f0f6fc;
+}
+
+body.dark-mode .list-group-item {
+    background-color: inherit;
+    color: inherit;
+}
+
+body.dark-mode .list-group-item.active {
+    background-color: #0d6efd;
+    border-radius: 4px;
+}
+
+body.dark-mode table {
+    color: white;
+}
+
+.theme-togglers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.theme-toggler {
+    padding: 0.2rem;
+}
+
+.theme-toggler.active {
+    opacity: 0.2;
+}
+
+body.dark-mode table.table-hover tr:hover {
+    background: #222;
+}
+
+body.dark-mode table.table-hover tr:hover th,
+body.dark-mode table.table-hover tr:hover td {
+    color: #f0f6fc;
+}
