@@ -3,12 +3,24 @@ const app = Vue.createApp({
        return {
            devs: devs,
            selected: -1,
-           dark: false
+           dark: false,
+           query: ''
        }
     },
     computed: {
         dev() {
-            return this.selected >= 0 ? this.devs[this.selected] : null;
+            return this.selected >= 0 ? this.searchedDevs[this.selected] : null;
+        },
+        searchedDevs() {
+            const term = this.query.toLowerCase().trim();
+            return this.devs.filter(dev =>
+                   dev.username.toLowerCase().includes(term)
+                || dev.firstName.toLowerCase().includes(term)
+                || dev.lastName.toLowerCase().includes(term)
+                || dev.middleName.toLowerCase().includes(term)
+                || (`${dev.firstName.toLowerCase()} ${dev.lastName.toLowerCase()}`).includes(term)
+                || (`${dev.lastName.toLowerCase()}, ${dev.firstName.toLowerCase()}`).includes(term)
+            );
         }
     },
     methods: {

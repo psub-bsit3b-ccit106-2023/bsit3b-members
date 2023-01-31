@@ -43,3 +43,8 @@ body.dark-mode table.table-hover tr:hover th,
 body.dark-mode table.table-hover tr:hover td {
     color: #f0f6fc;
 }
+
+body.dark-mode .form-control {
+    background: transparent;
+    color: #f0f6fc;
+}
