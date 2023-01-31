@@ -3,7 +3,7 @@ body {
 }
 
 body.dark-mode {
-    background: #121212;
+    background: black;
     color: #f0f6fc;
 }
 
