@@ -27,7 +27,7 @@
 			<hr>
 			<main class="row">
 				<aside class="col-md-4 left mb-4">
-					<input v-model="query" type="text" class="form-control form-control-lg mb-2" placeholder="Search">
+					<input v-model="query" type="search" class="form-control form-control-lg mb-2" placeholder="Search">
 					<div v-if="searchedDevs.length <= 0" class="alert alert-danger">
 						No devs found<template v-if="query.trim() !== ''"> for <b><i>{{ query }}</i></b></template>.
 					</div>
