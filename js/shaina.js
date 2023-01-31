@@ -4,7 +4,6 @@ devs.push({
     middleName: 'Ballecer',
     lastName  : 'Apondar',
     gender    : 'Female',
-    username  : 'ShayApondar',
-    photo     : 'https://avatars.githubusercontent.com/ShayApondar'
+    username  : 'ShayApondar'
 
 });

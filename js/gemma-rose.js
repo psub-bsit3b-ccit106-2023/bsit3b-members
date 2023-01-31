@@ -4,7 +4,6 @@ devs.push({
     middleName: 'Belga',
     lastName  : 'Abarera',
     gender    : 'Female',
-    username  : 'gem0830',
-    photo     : 'YourGitHubAvatarLink'
+    username  : 'gem0830'
 
 });

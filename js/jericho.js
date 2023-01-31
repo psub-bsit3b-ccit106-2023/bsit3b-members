@@ -4,7 +4,6 @@ devs.push({
     middleName: 'Bisenio',
     lastName  : 'Valladolid',
     gender    : 'male',
-    username  : 'JerichoValladolid',
-    photo     : 'https://avatars.githubusercontent.com/u/122844834?v=4'
+    username  : 'JerichoValladolid'
 
 });

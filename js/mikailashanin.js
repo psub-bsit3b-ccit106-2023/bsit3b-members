@@ -4,7 +4,6 @@ devs.push({
     middleName: 'Bagayawa',
     lastName  : 'Sotaso',
     gender    : 'Female',
-    username  : 'MikailaShaninSotaso',
-    photo     : 'https://avatars.githubusercontent.com/MikailaShaninSotaso'
+    username  : 'MikailaShaninSotaso'
 
 });

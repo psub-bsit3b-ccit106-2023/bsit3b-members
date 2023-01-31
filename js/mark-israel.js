@@ -4,7 +4,6 @@ devs.push({
     middleName: 'Azur',
     lastName  : 'Burce',
     gender    : 'Male',
-    username  : 'markburce17',
-    photo     : 'https://avatars.githubusercontent.com/markburce17'
+    username  : 'markburce17'
 });
 
