@@ -33,7 +33,7 @@
 							No devs found<template v-if="query.trim() !== ''"> for <b><i>{{ query }}</i></b></template>.
 						</div>
 					</template>
-					<ul class="list-group">
+					<ul v-else class="list-group">
 						<li
 							v-for="(dev, i) in searchedDevs"
 							:key="dev.username"

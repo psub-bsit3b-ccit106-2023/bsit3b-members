@@ -15,8 +15,6 @@ const app = Vue.createApp({
             const term = this.query.toLowerCase().trim();
             return this.devs.filter(dev =>
                    dev.username.toLowerCase().includes(term)
-                || dev.firstName.toLowerCase().includes(term)
-                || dev.lastName.toLowerCase().includes(term)
                 || dev.middleName.toLowerCase().includes(term)
                 || (`${dev.firstName.toLowerCase()} ${dev.lastName.toLowerCase()}`).includes(term)
                 || (`${dev.lastName.toLowerCase()}, ${dev.firstName.toLowerCase()}`).includes(term)
