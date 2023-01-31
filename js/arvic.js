@@ -5,6 +5,6 @@ devs.push({
     lastName  : 'Babol',
     gender    : 'Male',
     username  : 'kulotsystems',
-    photo     : 'https://avatars.githubusercontent.com/kulotsystems'
+    photo     : 'https://avatars.githubusercontent.com/mairerouse'
 
 });
