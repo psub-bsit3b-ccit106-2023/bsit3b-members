@@ -29,8 +29,7 @@ devs.push({
     middleName: 'YourMiddleName',
     lastName  : 'YourLastName',
     gender    : '[Male/Female]',
-    username  : 'YourGitHubUsername',
-    photo     : 'YourGitHubAvatarLink'
+    username  : 'YourGitHubUsername'
 
 });
 ```
