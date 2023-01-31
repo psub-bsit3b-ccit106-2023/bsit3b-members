@@ -48,3 +48,9 @@ body.dark-mode .form-control {
     background: transparent;
     color: #f0f6fc;
 }
+
+body.dark-mode .alert-danger {
+    color: #842029;
+    background: transparent;
+    border-color: maroon;
+}
